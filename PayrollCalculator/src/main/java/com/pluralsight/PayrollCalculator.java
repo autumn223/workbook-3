@@ -16,7 +16,7 @@ public class PayrollCalculator {
             BufferedReader bufReader = new BufferedReader(fileReader);
 
             String line;
-            bufReader.readLine();  // Skip the header line if present
+            bufReader.readLine(); 
 
             while ((line = bufReader.readLine()) != null) {
                 String[] data = line.split("\\|");
